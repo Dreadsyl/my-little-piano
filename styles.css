@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  color: rgb(255, 30, 169);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 25px 10px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  font-family: sans-serif;
+}
+
+.piano {
+  margin: 10% auto;
+}
+
+.pressed {
+  opacity: 0.5;
+}
+
+.key {
+  background-image: url("images/piano.png");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgb(255, 30, 169);
+  box-shadow: 0 0 10px rgb(255, 30, 169);
+  border-radius: 50%;
+  color: rgb(255, 30, 169);
+  text-shadow: 0 0 2px rgb(20, 20, 20);
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 900;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
